@@ -1,0 +1,389 @@
+/*GENERALE */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+    box-sizing: border-box;
+}
+
+
+/*HEADER*/
+header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    position: relative;
+}
+
+header a.logo {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+header a.logo span {
+    color: orange;
+    font-size: 40px;
+}
+
+
+
+nav ul {
+    display: flex;
+    column-gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+nav ul li a.active {
+    border-bottom: 5px solid orange;
+    padding-bottom: 28px;
+}
+
+nav ul li a:hover {
+    border-bottom: 5px solid orange;
+    padding-bottom: 28px;
+    transition: 0.5s;
+}
+
+
+/* MENU DE NAVIGATION RESPONSIVE */
+nav label i {
+    color: rgba(255, 255, 255, 0.663);
+    font-size: 30px;
+}
+
+nav input {
+    display: none;
+}
+
+nav label {
+    display: none;
+}
+
+
+
+
+/* BANNIERRE */
+div#bannierre {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+div#bannierre h5 {
+    color: orange;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+}
+
+div#bannierre h1 {
+    font-size: 55px;
+    color: white;
+    letter-spacing: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+div#bannierre a {
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 10px 30px;
+    background-color: rgb(130, 84, 0);
+    letter-spacing: 5px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+div#bannierre a:hover {
+    background-color: white;
+    color: rgb(130, 84, 0);
+    padding: 10px 33px;
+    transition: 0.5s;
+}
+
+
+
+
+/*  MON MENU REPAS*/
+
+section.container {
+    width: 80%;
+    margin: auto;
+    padding: 100px 0px;
+}
+
+div#recette {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+div#recette h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+div#recette a {
+    color: rgba(160, 106, 7, 0.895);
+}
+
+
+
+
+/* MES CARTES */
+div#cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    row-gap: 40px;
+}
+
+div#cards div.card {
+    border: 0.5px solid gray;
+    width: 31%;
+}
+
+div.card img {
+    width: 100%;
+    cursor: pointer;
+}
+
+div.card div.card-title {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+div.card-title h3 {
+    color: rgba(173, 115, 8, 0.84);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+div.card-body {
+    margin: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+div.card div.card-footer p.rate {
+    color: orange;
+}
+
+div.card div.card-footer {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(149, 99, 6);
+}
+
+
+
+/* A propos */
+.apropos {
+    padding-top: 50px;
+}
+
+.apropos h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.apropos h3 {
+    color: #1a6692;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+.apropos-container p {
+    line-height: 30px;
+    text-align: justify;
+}
+
+.apropos .apropos-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.apropos-container div {
+    width: 48%;
+}
+
+
+.image-container img {
+    width: 100%;
+    height: 400px;
+}
+
+.apropos-container ul {
+    margin-left: 19px;
+}
+
+.apropos-container ul li {
+    list-style-type: square;
+}
+
+.apropos-container ul li a {
+    color: #333;
+}
+
+.apropos-container ul li a:hover {
+    color: #e74343;
+}
+
+.apropos-container a.commander {
+    color: #ffffff;
+    background-color: #e74343;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.apropos-container a.commander:hover {
+    background-color: #000000;
+
+}
+
+
+
+
+
+/* FOOTER */
+footer hr {
+    width: 80%;
+    margin: auto;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #4a4a4a;
+}
+
+footer p a {
+    color: #e74343;
+}
+
+footer div {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer div i {
+    font-size: 25px;
+    padding: 0px 20px;
+    color: #e74343;
+}
+
+
+
+
+/* ADAPTER MON SITE AU FORMAT MOBILE ET TABLETTE */
+/* Les écrans dont largeur est inférieur ou égale à 800px */
+@media screen and (max-width: 800px) {
+
+    div#bannierre h1 {
+        font-size: 35px;
+    }
+    div#bannierre a{
+        letter-spacing: 2px;
+    padding: 10px 25px;
+    }
+    /* MENU DE NAVIGATION */
+    nav ul {
+        border-top: 0.1px solid white;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    nav label {
+        display: flex;
+    }
+
+    nav input[type="checkbox"]:checked+.mobile-menu {
+        display: flex;
+        top: 100%;
+        left: 0;
+        position: absolute;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 20px;
+        background-color: #333;
+        width: 100%;
+    }
+
+    nav ul li a.active {
+        color: orange;
+        border: none;
+    }
+
+    nav ul li a:hover {
+        border: none;
+        color: orange;
+    }
+
+    /*  MON MENU REPAS*/
+    div#recette {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    /* MES CARTES */
+    div#cards div.card {
+        width: 100%;
+    }
+
+    /* A propos */
+    .apropos .apropos-container {
+        flex-direction: column;
+    }
+
+    .apropos-container div {
+        width: 100%;
+    }
+
+    /* Footer */
+    footer p a{
+        font-size: 13px;
+    }
+    footer p {
+        font-size: 13px;
+        padding: 0 10px;
+        margin-top: 20px;
+
+    }
+
+    header a.logo {
+        font-size: 30px;
+    }
+}
