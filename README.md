@@ -1,4 +1,4 @@
-# Attiéké Garba - Découvrez la Tradition Culinaire 🍚🇨🇮
+# My GARBA - Découvrez la Tradition Culinaire 🍚🇨🇮
 
 Bienvenue sur le dépôt GitHub MY GARBA! Explorez la richesse culinaire de la Côte d'Ivoire à travers notre
 site dédié à MY GARBA.
@@ -8,7 +8,7 @@ Consultez notre démo en action sur
 
 ## Points Forts
 
-- Design Réactif : Attiéké Garba a été conçu dans le cadre de mon stage de soutenance du BTS, utilisant
+- Design Réactif :MY GARBA a été conçu dans le cadre de mon stage de soutenance du BTS, utilisant
 principalement les langages HTML et CSS pour le développement du site. Ces technologies ont été choisies pour leur
 simplicité et leur efficacité dans la création d'une interface web conviviale et responsive.
 
@@ -16,7 +16,7 @@ simplicité et leur efficacité dans la création d'une interface web conviviale
 
 ## Découvrez la Démo
 
-Explorez Attiéké Garba en action sur [MY GARBA](https://ehoumanvincent.github.io/Projet-Garba/)).
+Explorez MY GARBA en action sur [MY GARBA](https://ehoumanvincent.github.io/Projet-Garba/)).
 
 ## Comment Contribuer
 
